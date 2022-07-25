@@ -1,0 +1,83 @@
+.TopicAndPostLan{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: linear-gradient(to top, #f0f4ff 0%, #a1a187 100%);
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: #41412d;
+    transition: all 1s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.33), 0 10px 10px rgba(0,0,0,0.15);
+    word-break: break-all;
+}
+
+.TitleNameLan{
+    margin-top: -10px;
+}
+
+.PostLan{
+    margin-top: -33px;
+    display: inline-block;
+    position: absolute;
+    width: 9%;
+    left: 49.5%;
+}
+
+.DropMenuUnderTheTopic{
+    width: 720px;
+    background-color: rgb(0, 0, 0, 0.93);
+}
+
+.DropToggleUnderTheTopic{
+    width: 720px;
+    background-color: rgb(0, 0, 0, 0.23);
+    color: #41412d;
+}
+
+.DropdownPostLan{
+    margin-top: -5px;
+}
+
+@media all and (max-width: 1470px) {
+
+    .TopicAndPostLan{
+        padding-bottom: 15px;
+        text-align: center;
+
+    }
+
+    .PostLan{
+        display: contents;
+        text-align: center;
+    }
+    .DropMenuUnderTheTopic{
+        width: 100%;
+    }
+
+    .DropToggleUnderTheTopic{
+        width: 100%;
+    }
+
+    .DropdownPostLan{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .TitleNameLan{
+        font-size: 24px;
+    }
+
+}
+
+@media all and (max-width: 1485px) {
+    .TitleNameLan{
+        font-size: 20px;
+    }
+    .PhotoUpdate{
+        display: none;
+    }
+}
+

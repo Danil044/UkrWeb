@@ -1,0 +1,125 @@
+.MainSinPost{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    min-height: calc(69.8vh - 20px);
+}
+
+
+.DivTitle{
+    height: 20%;
+    border: 3px solid rgb(0, 0, 0, 0.5);
+    border-radius: 18px;
+    background: linear-gradient(to top, #ced7fd 20%, #fff5e3 100%);
+    color: #41412d;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    transition: all 1s;
+
+}
+
+.DivMain{
+    margin-top: 20px;
+    border: 3px solid rgb(0, 0, 0, 0.5);
+    border-radius: 18px;
+    background: linear-gradient(to top, #f5f5fc 0%, #fff5e3 100%);
+    padding-top: 40px;
+    padding-bottom: 26px;
+    padding-right: 70px;
+    padding-left: 3%;
+    font-size: 18px;
+    transition: all 1s;
+
+}
+
+.DivPhoto{
+    height: 450px;
+    width: 55%;
+
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.33), 0 10px 10px rgba(0,0,0,0.15);
+    transition: 1s;
+}
+
+.DivPhotoClass{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    margin-left: 5%;
+}
+
+.DivText{
+    transition: 1s;
+}
+
+.DivPhoto:hover{
+    transform: scale(1.035);
+}
+
+.DivExercise{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 3px solid rgb(0, 0, 0, 0.5);
+    border-radius: 18px;
+    background: linear-gradient(to top, #fff5e3 20%, #ced7fd 100%);
+    padding-top: 30px;
+    padding-bottom: 26px;
+    padding-right: 70px;
+    padding-left: 3%;
+    font-size: 18px;
+    transition: all 1s;
+}
+
+
+.TextareaAuto{
+    width: 100%;
+
+    margin-left: 30px;
+    cursor: context-menu;
+
+    background-color: rgb(0, 0, 0, 0);
+    border-top-color: rgb(0, 0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0, 0);
+    border-left-color: rgb(0, 0, 0, 0);
+    border-right-color: rgb(0, 0, 0, 0);
+    resize: none;
+    outline: none;
+    caret-color: transparent;
+
+    text-align: justify;
+}
+
+.IconImg{
+    width: 30px;
+    height: 30px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+@media all and (max-width: 1270px) {
+    .DivPhoto{
+        height: 350px;
+        width: 455px;
+        margin-left: 10%;
+    }
+}
+
+
+@media all and (max-width: 770px) {
+    .IconImg{
+        width: 7%;
+        height: 7%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .DivPhoto{
+        height: 300px;
+        width: 345px;
+        margin-left: 10%;
+    }
+}

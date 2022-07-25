@@ -1,0 +1,13 @@
+.FooterBar{
+    height: 70px;
+    background: linear-gradient(to top left, rgba(153, 153, 102, 0.5) 0%, rgba(183, 197, 252, 0.5) 60%);
+    font-family: Bookman, URW Bookman L, serif;
+    color: rgb(69, 51, 33);
+    flex: 0 0 auto;
+}
+
+@media all and (max-width: 770px) {
+    .CompanyName{
+        display: none;
+    }
+}

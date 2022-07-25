@@ -1,0 +1,103 @@
+.TopicAndPost{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: linear-gradient(to top, #f0f4ff 0%, #a1a187 100%);
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: #41412d;
+    transition: all 1s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.33), 0 10px 10px rgba(0,0,0,0.15);
+    word-break: break-all;
+}
+
+
+.PostLit{
+    margin-top: -33px;
+    display: inline-block;
+    position: absolute;
+    left: 49.5%;
+}
+
+.DropToggleUnderTheTopicLit{
+    width: 720px;
+    background-color: rgb(0, 0, 0, 0.23);
+    color: #41412d;
+}
+
+.DropMenuUnderTheTopicLit{
+    width: 720px;
+    background-color: rgb(0, 0, 0, 0.93);
+    word-break: break-all;
+
+}
+
+
+.DropToggleUnderTheTopicItem {
+    min-height: calc(69.8vh - 20px);
+}
+
+.DropdownPostLit{
+    margin-top: -10px;
+}
+
+.IconUpdateDown{
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+@media all and (max-width: 1485px) {
+
+    .TopicAndPost{
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .PostLit{
+        display: contents;
+        text-align: center;
+    }
+    .DropMenuUnderTheTopicLit{
+        width: 100%;
+    }
+
+    .DropToggleUnderTheTopicLit{
+        width: 100%;
+    }
+
+    .DropdownPostLit{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .TitleNameLit{
+        font-size: 28px;
+    }
+
+}
+
+@media all and (max-width: 870px) {
+    .TitleNameLit{
+        font-size: 28px;
+    }
+    .PhotoUpdateLit{
+        display: none;
+    }
+    .DropNameLit{
+        font-size: 100%;
+    }
+    .IconUpdateDown{
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+    .DropMenuUnderTheTopicLit{
+        width: auto;
+        word-break: break-all;
+    }
+}
+
